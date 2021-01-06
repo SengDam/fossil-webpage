@@ -1,0 +1,95 @@
+body {
+  background-color: #bba67e;
+}
+
+.Overview {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.test {
+  background-color: red;
+}
+
+.infoDescription {
+  font-size: 24px;
+}
+
+.LeftColumn {
+  display: inline-grid;
+  vertical-align: top;
+  margin-left: 5%;
+  width: 30%;
+  height: 500px;
+}
+
+.RightColumn {
+  display: inline-grid;
+  vertical-align: top;
+  width: 30%;
+  height: 500px;
+
+  /* float: right; */
+}
+.Timeline {
+  display: inline-grid;
+  vertical-align: top;
+  width: 30%;
+  height: 1000px;
+}
+
+.Timeline span {
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  border: solid;
+}
+.Timeline span h1 {
+  font-size: 24px;
+}
+.Timeline span h2 {
+  font-size: 16px;
+}
+.Timeline span h3 {
+  font-size: 8px;
+}
+.Timeline span.timebreak {
+  background-color: #101010;
+  color: gray;
+  border-color: #101010;
+}
+.Timeline span.Permian {
+  background-color: #3399ff;
+  height: 165px;
+}
+
+.Timeline span.Carboniferous {
+  background-color: #009999;
+  height: 207px;
+}
+
+.Timeline span.Devonian {
+  background-color: #8484ff;
+  height: 195px;
+}
+
+.Timeline span.Silurian {
+  background-color: #b3005f;
+  height: 95px;
+}
+
+.Timeline span.Ordovician {
+  background-color: #8b1c00;
+  height: 153px;
+}
+
+.Timeline span.Cambrian {
+  background-color: #a13d2d;
+  height: 185px;
+}
+
+.hidden {
+  display: none;
+}
